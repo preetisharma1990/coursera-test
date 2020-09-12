@@ -1,0 +1,32 @@
+body{
+	
+	border:1px solid blue;
+}
+p{
+        	border: 1px solid black;
+        	margin-bottom: 18px;
+        }
+       #p4{
+       	margin: 0;
+       	margin-right: none;
+       	background-color: green;
+       	width: 300px;
+       	height: 300px;
+       }
+       #p5{
+       	background-color: red;
+       	width: 300px;
+       	height: 300px;
+       }
+       #p6{
+       	background-color: pink;
+       }
+@media(min-width:992px){
+
+        }
+ @media(min-width:768px)and (max-width:991px){
+
+        }
+@media(min-width:767px){
+
+        }

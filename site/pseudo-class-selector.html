@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head> 
+      <title> Pseudo class selectors</title>
+      <style>
+        *{
+          box-sizing: border-box;
+        
+        }
+        header li{
+                   list-style: none;
+                 }
+         a:link. a:visited{
+           text-decoration: none;
+           background-color: blue;
+           border: 1px solid red;
+           color: black;
+           display: block;
+           width: 200px;
+           text-align-last: center;
+           margin-bottom: 1px;
+         }
+        a:hover,a:active
+        {
+          background-color: green;
+          color: pink;
+        }
+       header li:nth-child(2)
+       {
+        font-size: 20px;
+       }
+      section div:nth-child(odd)
+      {
+        background-color: orange;
+      }
+      section div:nth-child(5):hover
+      {
+        background-color: skyblue;
+        cursor: pointer;
+      }
+      #box{
+        background-color: blue;
+        border: 3px solid black;
+        padding: 10px 10px 10px 10px;
+      }
+      </style>
+</head>
+<body>
+
+<h1>Pseudo Class Selectors</h1>
+       <header> 
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="http://goo.gl/vow16s" target="blank">Angularjs course</a></li>
+              <li><a href="http://www.facebook.com/CoureaWebDev" target="blank">Facebook Fan Page</a></li>
+              <li>Window</li>
+            </ul>
+
+       </header>
+
+      <section>
+        <div>DIV 1</div>
+        <div>DIV 2</div>
+        <div>DIV 3</div>
+        <div>DIV 4</div>
+        <div>DIV 5</div>
+        <div>DIV 6</div>
+        <div>DIV 7</div>
+        <div>DIV 8</div>
+        <div>DIV 9</div>
+        <div>DIV 10</div>
+        <div>DIV 11</div>
+        <div>DIV 12</div>
+        <div>DIV 13</div>
+        <div>DIV 14</div>
+        <div>DIV 15</div>
+        <div>DIV 16</div>
+        <div>DIV 17</div>
+        <div>DIV 18</div>
+        <div id="box">DIV 19</div>
+        <div>DIV 20</div>
+      </section>
+
+</body>
+</html>
